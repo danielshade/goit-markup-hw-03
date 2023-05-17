@@ -16,6 +16,13 @@ body {
 
 .list {
     list-style-type: none;
+    display: flex;
+    padding-left: 0px;
+}
+
+.pagetle {
+    display: flex;
+    padding-left: 0px;
 }
 
 
@@ -26,6 +33,7 @@ body {
     font-weight: 500;
     letter-spacing: 0.02em;
     color: var(--fourth-color);
+    margin-top: 0px;
 }
 
 .logo-first {
@@ -38,20 +46,16 @@ body {
     text-transform: uppercase;
     color: #4D5AE5;
     text-decoration: none;
-    margin-right: 76px;
+    display: flex;
 
 }
 
 .logo-second {
     color: var(--fourth-color);
+    display: flex;
  
 }
 
-.logo-seconds {
-    color: var(--white-color);
-    line-height: 1.16;
-    font-size: 18px;
-}
 
 .addreess-link: {
     font-style: normal;
@@ -74,6 +78,18 @@ body {
     line-height: 1.5;
     display: flex;
     gap: 40px;
+    position: absolute;
+    left: 940px;
+    top: 24px;
+}
+
+.address-links {
+    font-family: 'Roboto';
+    font-style: normal;
+    left: 1133px;
+    top: 24px;
+    position: absolute;
+
 }
 
 .address-link :hover {
@@ -116,6 +132,10 @@ body {
     line-height: 60px;
     text-align: center;
     letter-spacing: 0.02em;
+    position: absolute;
+    left: 472px;
+    top: 260px;
+
 
 }
 
@@ -177,10 +197,8 @@ button {
 }
 
 .footer {
-    background: var(--second-color);  
-    position: absolute;
-    width: 1440px;
-    height: 312px;
+    padding: 100px 0;
+    background: #2E2F42;
 }
 
 .page-header {
@@ -195,6 +213,7 @@ button {
 .list-of-img {
     display: flex;
     gap: 24px;
+    padding-left: 0px;
     
 
 }
@@ -225,7 +244,7 @@ li {
 }
 
 .team-mate {
-    background: #e7e9fc;  
+    background: #FFFFFF;  
     border-radius: 0px 0px 4px 4px;  
     color: var(--team-color);
 }
@@ -274,13 +293,14 @@ li {
     padding-right: 15px;
     margin: auto;
     margin-right: auto;
-    display: flex;
+    text-align: center;
 }
 
-.user-team  {
+.user-team list{
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    padding-left: 0px;
 }
 
 .modal-btn-portfolio:hover,
@@ -304,15 +324,16 @@ li {
 
 }
 
+.porfolio-list {
+    display: flex;
+}
+
 .portfolio-list-box { 
-        width: calc((100% - 48px) / 3);
-        margin-right: 0;
-        margin-bottom: 0;
-      }  
+    margin-right: 0;
+    margin-bottom: 0;
+  }  
 
 .section-title {
-    width: 323px;
-    height: 40px;
     left: 559px;
     top: 1016px;
     text-align: center;
