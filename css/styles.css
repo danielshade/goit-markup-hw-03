@@ -109,7 +109,6 @@ body {
     color: var(--second-color);
     text-decoration: none;
     display: flex;
-    align-items: center; 
 
 }
 
@@ -141,6 +140,10 @@ body {
 
 .hero-title-box {
     background: #2E2F42;
+    width: 1440px;
+    height: 600px;
+    left: 0px;
+    top: 72px;
 }
 
 
@@ -170,6 +173,7 @@ body {
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
+    position: absolute;
 
 }
 
@@ -191,10 +195,17 @@ button {
 }
 
 .page-title {
-    background-color: ;
+    background-color: #2E2F42;
     padding: 188px 0;
     
 }
+
+.logo-seconds {
+    color: var(--white-color);
+    line-height: 1.16;
+    font-size: 18px;
+}
+
 
 .footer {
     padding: 100px 0;
@@ -247,6 +258,8 @@ li {
     background: #FFFFFF;  
     border-radius: 0px 0px 4px 4px;  
     color: var(--team-color);
+    padding: 0px 0px 32px;
+    gap: 32px;
 }
 
 .team-title {
