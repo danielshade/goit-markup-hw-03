@@ -199,7 +199,7 @@ button {
 
 }
 
-.header-container{d:f;} { 
+.header-container { 
     display: flex;
     width: 1158px;
     margin: 0;
@@ -210,6 +210,7 @@ button {
 .header-navigation {
     padding-left: 15px;
     padding-right: 15px;
+    display: flex;
 
 }
 
@@ -273,6 +274,7 @@ li {
     padding-right: 15px;
     margin: auto;
     margin-right: auto;
+    display: flex;
 }
 
 .user-team  {
@@ -296,8 +298,23 @@ li {
     margin-bottom: 72px;
     } 
 
+.portfolio-items .list {
+    justify-content: center; 
+    gap: 24px;
+
+}
+
 .portfolio-list-box { 
         width: calc((100% - 48px) / 3);
         margin-right: 0;
         margin-bottom: 0;
       }  
+
+.section-title {
+    width: 323px;
+    height: 40px;
+    left: 559px;
+    top: 1016px;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
