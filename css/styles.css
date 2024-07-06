@@ -44,9 +44,6 @@ button {
     margin: 0 auto;
 }
 
-
-/*---------HEADER--------*/
-
 .header {
     background-color: #fff;
     border-bottom: 1px solid #e7e9fc;
@@ -116,12 +113,6 @@ button {
     color: #434455;
 }
 
-/*---------HEADER--------*/
-
-
-
-/*------HERO----------*/
-
 .hero {
     background-color: #2e2f42;
     padding-bottom: 188px;
@@ -170,10 +161,6 @@ button {
     background: #404bbf;
 }
 
-/*--------------HERO----------*/
-
-
-/*--------------ABOUT US----------*/
 
 .visually-hidden {
     position: absolute;
@@ -219,11 +206,6 @@ button {
     color: #434455;
 }
 
-/*--------------ABOUT US----------*/
-
-
-
-/*--------------OUR TEAM----------*/
 .our-team {
     background-color: #f4f4fd;
     padding-top: 120px;
@@ -285,10 +267,6 @@ button {
     text-align: center;
 }
 
-/*--------------OUR TEAM----------*/
-
-/*--------------OUR PORTFOLIO----------*/
-
 
 .our-portfolio {
     padding-top: 120px;
@@ -340,11 +318,7 @@ button {
     letter-spacing: 0.02em;
     color: #434455;
 }
-/*--------------OUR PORTFOLIO----------*/
 
-
-
-/*-------------FOOOTER----------*/
 .footer {
     background-color: #2e2f42;
 }
@@ -380,4 +354,3 @@ color: #f4f4fd;
 max-width: 264px;
 }
 
-/*-------------FOOOTER----------*/
